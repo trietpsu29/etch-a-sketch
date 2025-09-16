@@ -16,6 +16,7 @@ body {
 
 .square {
   border: solid 1px;
+  border-color: lightblue;
   background-color: rgb(255, 190, 101);
   width: 32px;
   height: 32px;
