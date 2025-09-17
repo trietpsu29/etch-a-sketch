@@ -27,10 +27,11 @@ square.addEventListener("mousemove", function (e) {
 const sizeBtn = document.querySelector(".size");
 sizeBtn.addEventListener("click", function (e) {
   let playerSize = prompt("Choose canvas's size between 1 and 100");
-  while (playerSize < 1 || playerSize > 100) {
+
+  while (playerSize && (playerSize < 1 || playerSize > 100)) {
     playerSize = prompt("Size is out of range, please choose again!");
   }
-  makeGrid(playerSize);
+  if (playerSize) makeGrid(playerSize);
 });
 const clearBtn = document.querySelector(".clear");
 clearBtn.addEventListener("click", function (e) {
