@@ -29,3 +29,10 @@ sizeBtn.addEventListener("click", function (e) {
   }
   makeGrid(playerSize);
 });
+const clearBtn = document.querySelector(".clear");
+clearBtn.addEventListener("click", function (e) {
+  let squares = document.querySelectorAll(".square");
+  for (let i = 0; i < squares.length; i++) {
+    squares[i].style.background = "rgb(255, 190, 101)";
+  }
+});
