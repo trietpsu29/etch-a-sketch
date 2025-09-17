@@ -4,20 +4,22 @@
 
 body {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 512px;
-  min-width: 512px;
+  max-width: 800px;
+  min-width: 800px;
 }
 
 .square {
   border: solid 1px;
   border-color: lightblue;
   background-color: rgb(255, 190, 101);
-  width: 32px;
-  height: 32px;
+}
+button {
+  margin-bottom: 15px;
 }
