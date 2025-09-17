@@ -19,7 +19,10 @@ makeGrid(16); //default size
 
 const square = document.querySelector(".container");
 square.addEventListener("mousemove", function (e) {
-  e.target.style.background = "lightblue";
+  let r = Math.floor(Math.random() * 255);
+  let g = Math.floor(Math.random() * 255);
+  let b = Math.floor(Math.random() * 255);
+  e.target.style.background = `rgb(${r},${g},${b})`;
 });
 const sizeBtn = document.querySelector(".size");
 sizeBtn.addEventListener("click", function (e) {
