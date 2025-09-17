@@ -26,8 +26,9 @@ square.addEventListener("mousemove", function (e) {
 });
 const sizeBtn = document.querySelector(".size");
 sizeBtn.addEventListener("click", function (e) {
-  let playerSize = prompt("Choose canvas's size between 1 and 100");
-
+  let playerSize = prompt(
+    "Choose canvas's size between 1 and 100, your drawing will be cleared when change size!"
+  );
   while (playerSize && (playerSize < 1 || playerSize > 100)) {
     playerSize = prompt("Size is out of range, please choose again!");
   }
