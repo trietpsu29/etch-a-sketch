@@ -1,6 +1,6 @@
 # 🎮 Etch A Sketch
 
-This is the fourth project from [The Odin Project](https://github.com/TheOdinProject) curriculum — A simple Etch A Sketch game mostly built in Javascript to practice core programming skills.
+This is the fourth project from [The Odin Project](https://github.com/TheOdinProject) curriculum — a Etch A Sketch game mostly built in Javascript to practice core programming skills.
 
 ## ✨ Preview
 
